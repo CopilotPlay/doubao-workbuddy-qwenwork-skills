@@ -1,0 +1,126 @@
+{
+  "name": "senior-accessible-travel",
+  "version": "1.0.0",
+  "description": "Designs age-friendly itineraries, accessible environments and safety support for seniors.",
+  "author": {
+    "name": "WorkBuddy User",
+    "email": "user@workbuddy.local"
+  },
+  "agents": [
+    "./agents/senior-accessible-travel-team-lead.md",
+    "./agents/senior-itinerary-designer.md",
+    "./agents/accessibility-designer.md",
+    "./agents/senior-safety-advisor.md"
+  ],
+  "expertType": "team",
+  "agentName": "senior-accessible-travel-team-lead",
+  "teamInfo": {
+    "leadAgent": "senior-accessible-travel-team-lead",
+    "memberAgents": [
+      "senior-itinerary-designer",
+      "accessibility-designer",
+      "senior-safety-advisor"
+    ]
+  },
+  "displayName": {
+    "en": "Senior & Accessible Travel Team",
+    "zh": "银发旅游与无障碍服务团"
+  },
+  "profession": {
+    "en": "Senior & Accessible Travel Team",
+    "zh": "银发旅游与无障碍服务团"
+  },
+  "displayDescription": {
+    "en": "Designs age-friendly itineraries, accessible environments and safety support for seniors.",
+    "zh": "面向银发客群与行动不便人群，设计适老化行程、无障碍通行环境、随队医疗与安全保障方案。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "设计一条适合老年人的慢节奏旅游线路",
+    "en": "Design a slow-paced itinerary suitable for seniors."
+  },
+  "plugin": "senior-accessible-travel",
+  "tags": [
+    {
+      "en": "Senior Travel",
+      "zh": "银发旅游"
+    },
+    {
+      "en": "Accessibility",
+      "zh": "无障碍"
+    },
+    {
+      "en": "Age-Friendly",
+      "zh": "适老化"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "设计一条适合老年人的慢节奏旅游线路",
+      "en": "Design a slow-paced itinerary suitable for seniors."
+    },
+    {
+      "zh": "景区无障碍环境改造应从哪些环节入手？",
+      "en": "Where should a scenic area start with accessibility upgrades?"
+    },
+    {
+      "zh": "银发团的随队医疗与安全保障怎么安排？",
+      "en": "How to arrange medical and safety support for senior groups?"
+    }
+  ],
+  "members": [
+    {
+      "id": "senior-accessible-travel-team-lead",
+      "name": {
+        "en": "Le",
+        "zh": "乐龄行"
+      },
+      "profession": {
+        "en": "Senior Travel Product Director",
+        "zh": "银发旅游产品总监"
+      },
+      "avatar": "avatars/senior-accessible-travel-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "senior-itinerary-designer",
+      "name": {
+        "en": "Huan",
+        "zh": "缓步游"
+      },
+      "profession": {
+        "en": "Age-Friendly Itinerary Designer",
+        "zh": "适老化行程设计师"
+      },
+      "avatar": "avatars/senior-itinerary-designer.png",
+      "role": "member"
+    },
+    {
+      "id": "accessibility-designer",
+      "name": {
+        "en": "Wu",
+        "zh": "无碍行"
+      },
+      "profession": {
+        "en": "Accessibility Service Designer",
+        "zh": "无障碍服务设计师"
+      },
+      "avatar": "avatars/accessibility-designer.png",
+      "role": "member"
+    },
+    {
+      "id": "senior-safety-advisor",
+      "name": {
+        "en": "Kang",
+        "zh": "康随行"
+      },
+      "profession": {
+        "en": "Senior Safety Advisor",
+        "zh": "银发安全顾问"
+      },
+      "avatar": "avatars/senior-safety-advisor.png",
+      "role": "member"
+    }
+  ]
+}

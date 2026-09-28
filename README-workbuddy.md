@@ -6,9 +6,9 @@
 
 - 平台目录：`workbuddy/`
 - 定时任务：`WorkbuddySkillsDailySync`，每天 18:00 运行
-- 当前索引条目数：633
-- 当前索引文件数：17596
-- 最近变更：[2026-09-26-180002](workbuddy/change-logs/2026-09-26-180002.md) - WorkBuddy 本次同步新增 5 个文件、修改 54 个文件、删除 0 个文件。 受影响范围：connectors/marketplace/.codebuddy-connector, connectors/marketplace/connectors/cloudbase, connectors/marketplace/connectors/cnb-...
+- 当前索引条目数：635
+- 当前索引文件数：17631
+- 最近变更：[2026-09-28-180010](workbuddy/change-logs/2026-09-28-180010.md) - WorkBuddy 本次同步新增 35 个文件、修改 1 个文件、删除 0 个文件。 新增条目：experts/expert-tax-advisory-practice, experts/senior-accessible-travel。 受影响范围：experts/expert-tax-advisory-practice, experts/senio...
 
 ## 数据来源
 
@@ -64,6 +64,7 @@
 | 企业法务专家团 | `workbuddy/experts/enterprise-legal-team` | 11-SecurityCompliance | 211 | 面向企业法务的多角色专家团，覆盖合同、交易、隐私、产品、监管、AI 治理、雇佣与知识产权分诊。 |
 | equity-research | `workbuddy/experts/equity-research` | agent | 35 | Comprehensive equity research toolkit: earnings analysis, initiating coverage, DCF/comps valuation, long-short pitches, investment memos, event-driven analysis, portfolio risk management, and full research workflows |
 | ETF投资顾问专家团 | `workbuddy/experts/etf-advisor-team` | 08-FinanceInvestment | 144 | 自上而下定配置中枢与再平衡纪律，自下而上诊断持仓、择优替换工具，宏观技术风控协同输出多角度调仓分析参考。 |
+| 财税中介机构AI合规专家团 | `workbuddy/experts/expert-tax-advisory-practice` | 11-SecurityCompliance | 23 | 财税中介机构AI合规专家团：由事务所供给侧总监（统筹中介机构智能合规交付与法税同审分诊），协调中介机构智能合规咨询专家、合同涉税评审与风控专家、法税同审与法务审查专家，助力财税事务所提升合规服务能力。 |
 | 福帮手 | `workbuddy/experts/fbsir-eight-seat-board` | 12-IndustryConsultant | 82 | 福帮手经营决策独立审议专家团｜按案组建必要席位，独立判断、交叉质询、保留异议，交付可追溯行动备忘录 |
 | 营销通·搞懂用户专家团 | `workbuddy/experts/find-users-team` | 05-MarketingGrowth | 16 | 从你的第一批真实用户出发，找到更多可能需要产品的人，再用内容触达陌生用户。适合产品做出来了、但不知道给谁看的人。 |
 | 鹏城信息AI专家 | `workbuddy/experts/game-development-studio` | 03-GameSpatial | 17 | 统筹策划、技术、美术、音频、质量、运营六大专业成员，以七阶段工作流驱动游戏从概念到上线流程协同开发。 |
@@ -100,6 +101,7 @@
 | Rightly 合规辅助专业版 | `workbuddy/experts/rightly-compliance-assistant-pro` | 11-SecurityCompliance | 44 | 隐私合规专家团，解读政策与通报条目，分析违规详情，结合专业版 Rightly 数据输出整改方案。 |
 | 资本市场路演研究团 | `workbuddy/experts/roadshow-research-team` | 08-FinanceInvestment | 32 | 多专家协作标的研报：多源解析、行业对比、财报三表（上市+未上市）、路演研报、股价关联，模板出报告。 |
 | 销售作战团队 | `workbuddy/experts/sales-battle-team` | 07-SalesCommerce | 14 | 由销售总监领导的 4 人销售专家团队：客户研究员（公司/潜客情报）、外联策略师（邮件起草/电话准备）、竞争情报分析师（赢单/丢单分析/Battle Card）和销售预测分析师（Pipeline 评审/预测）。覆盖从研究到成交的完整销售周期。 |
+| 银发旅游与无障碍服务团 | `workbuddy/experts/senior-accessible-travel` | 12-IndustryConsultant | 12 | 面向银发客群与行动不便人群，设计适老化行程、无障碍通行环境、随队医疗与安全保障方案。 |
 | 吴八哥 | `workbuddy/experts/senior-developer` | 02-Engineering | 118 | 10年以上全栈经验，精通多种语言和框架，是团队的技术中坚 |
 | SEO 内容营销团队 | `workbuddy/experts/seo-content-team` | 05-MarketingGrowth | 21 | 7位专业角色分5阶段协作：关键词研究、SEO长文创作、技术优化、内容编辑、链接策略、转化率分析，全流程自动化产出高质量SEO内容 |
 | 思研·市场研究专家团 | `workbuddy/experts/sia-research-team` | 05-MarketingGrowth | 36 | 从一个模糊的生意想法开始，先摸市场判断能不能做，再出访谈大纲问卷去问真实用户，最后把数据变成能拍板的结论。一人公司也能跑完整条链。 |
@@ -701,6 +703,7 @@
 
 | Date | Change Log | Summary |
 | --- | --- | --- |
+| 2026-09-28-180010 | [2026-09-28-180010](workbuddy/change-logs/2026-09-28-180010.md) | WorkBuddy 本次同步新增 35 个文件、修改 1 个文件、删除 0 个文件。 新增条目：experts/expert-tax-advisory-practice, experts/senior-accessible-travel。 受影响范围：experts/expert-tax-advisory-practice, experts/senio... |
 | 2026-09-26-180002 | [2026-09-26-180002](workbuddy/change-logs/2026-09-26-180002.md) | WorkBuddy 本次同步新增 5 个文件、修改 54 个文件、删除 0 个文件。 受影响范围：connectors/marketplace/.codebuddy-connector, connectors/marketplace/connectors/cloudbase, connectors/marketplace/connectors/cnb-... |
 | 2026-09-25-085343 | [2026-09-25-085343](workbuddy/change-logs/2026-09-25-085343.md) | WorkBuddy 本次同步新增 593 个文件、修改 108 个文件、删除 9 个文件。 新增条目：connectors/marketplace/connectors/chainlon-geo-mcp, connectors/marketplace/connectors/duoguan-course, connectors/marketplace/c... |
 | 2026-09-23-180002 | [2026-09-23-180002](workbuddy/change-logs/2026-09-23-180002.md) | WorkBuddy 本次同步新增 540 个文件、修改 9 个文件、删除 196 个文件。 新增条目：connectors/marketplace/connectors/beatapi-beatdesign, connectors/marketplace/connectors/cloudhub, connectors/marketplace/conne... |
@@ -720,4 +723,3 @@
 | 2026-08-31-180002 | [2026-08-31-180002](workbuddy/change-logs/2026-08-31-180002.md) | WorkBuddy 本次同步新增 26 个文件、修改 6 个文件、删除 10 个文件。 新增条目：connectors/marketplace/connectors/databuddy, connectors/marketplace/connectors/jinshouzhi。 移除条目已归档：connectors/marketplace/connec... |
 | 2026-08-30-212148 | [2026-08-30-212148](workbuddy/change-logs/2026-08-30-212148.md) | WorkBuddy 本次同步新增 2677 个文件、修改 0 个文件、删除 0 个文件。 新增条目：connectors/default, connectors/marketplace/.codebuddy-connector, connectors/marketplace/connectors/77ircloud, connectors/market... |
 | 2026-08-20-180002 | [2026-08-20-180002](workbuddy/change-logs/2026-08-20-180002.md) | WorkBuddy 本次同步新增 0 个文件、修改 1 个文件、删除 0 个文件。 受影响范围：skills/aihot__skillhub。 |
-| 2026-08-13-180002 | [2026-08-13-180002](workbuddy/change-logs/2026-08-13-180002.md) | WorkBuddy 本次同步新增 13 个文件、修改 4 个文件、删除 235 个文件。 新增条目：skills/paper-reader, skills/paper-reader.zip, skills/paper-rebuttal, skills/paper-reviewer, skills/research-lineage-map。 移除条目已归... |

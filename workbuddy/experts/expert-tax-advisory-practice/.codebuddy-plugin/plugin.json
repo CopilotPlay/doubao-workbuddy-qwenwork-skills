@@ -1,0 +1,144 @@
+{
+  "name": "expert-tax-advisory-practice",
+  "version": "2.0.0",
+  "description": "财税中介机构AI合规专家团：由事务所供给侧总监协调中介机构智能合规咨询、合同涉税评审、法税同审与法务审查等专题专家，助力财税事务所提升合规服务能力。",
+  "author": {
+    "name": "Joyxj2devs Team",
+    "email": "jacky_zhouxj@qq.com"
+  },
+  "agents": [
+    "./agents/pod-p10-lead.md",
+    "./agents/tax-advisory-practice-expert.md",
+    "./agents/tax-contract-generation-review-expert.md",
+    "./agents/tax-legal-tax-review-expert.md",
+    "./agents/tax-specialized-characteristic-expert.md"
+  ],
+  "expertType": "team",
+  "agentName": "pod-p10-lead",
+  "teamInfo": {
+    "leadAgent": "pod-p10-lead",
+    "memberAgents": [
+      "tax-advisory-practice-expert",
+      "tax-contract-generation-review-expert",
+      "tax-legal-tax-review-expert",
+      "tax-specialized-characteristic-expert"
+    ]
+  },
+  "displayName": {
+    "en": "Tax Intermediary AI Compliance Expert Team",
+    "zh": "财税中介机构AI合规专家团"
+  },
+  "profession": {
+    "en": "Tax Compliance Director",
+    "zh": "税务师执业总监"
+  },
+  "displayDescription": {
+    "en": "AI compliance expert team for tax intermediary firms, coordinated by a lead agent specializing in law-tax review and risk control. Integrates policy knowledge base and risk models for compliant delivery.",
+    "zh": "财税中介机构AI合规专家团：由事务所供给侧总监（统筹中介机构智能合规交付与法税同审分诊），协调中介机构智能合规咨询专家、合同涉税评审与风控专家、法税同审与法务审查专家，助力财税事务所提升合规服务能力。"
+  },
+  "avatar": "avatars/pod-p10-lead.png",
+  "categoryId": "11-SecurityCompliance",
+  "defaultInitPrompt": {
+    "en": "Help me analyze tax compliance risks for my client",
+    "zh": "帮我分析客户的税务合规风险"
+  },
+  "plugin": "expert-tax-advisory-practice",
+  "tags": [
+    {
+      "en": "Tax Compliance",
+      "zh": "税务合规"
+    },
+    {
+      "en": "Law-Tax Review",
+      "zh": "法税同审"
+    },
+    {
+      "en": "Risk Control",
+      "zh": "风险防控"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me analyze tax compliance risks for my client",
+      "zh": "帮我分析客户的税务合规风险"
+    },
+    {
+      "en": "What tax risks does this contract have",
+      "zh": "这份合同有哪些涉税风险"
+    },
+    {
+      "en": "How to build a law-tax joint review compliance system",
+      "zh": "如何构建法税同审合规体系"
+    }
+  ],
+  "members": [
+    {
+      "id": "pod-p10-lead",
+      "profession": {
+        "en": "税务师执业总监",
+        "zh": "税务师执业总监"
+      },
+      "avatar": "avatars/pod-p10-lead.png",
+      "role": "lead",
+      "name": {
+        "en": "事务所供给侧总监",
+        "zh": "事务所供给侧总监"
+      }
+    },
+    {
+      "id": "tax-advisory-practice-expert",
+      "profession": {
+        "en": "Tax Compliance Expert",
+        "zh": "财税合规专家"
+      },
+      "avatar": "avatars/tax-advisory-practice-expert.png",
+      "role": "member",
+      "name": {
+        "en": "中介机构智能合规咨询专家",
+        "zh": "中介机构智能合规咨询专家"
+      }
+    },
+    {
+      "id": "tax-contract-generation-review-expert",
+      "profession": {
+        "en": "Tax Compliance Expert",
+        "zh": "财税合规专家"
+      },
+      "avatar": "avatars/tax-contract-generation-review-expert.png",
+      "role": "member",
+      "name": {
+        "en": "合同涉税评审与风控专家",
+        "zh": "合同涉税评审与风控专家"
+      }
+    },
+    {
+      "id": "tax-legal-tax-review-expert",
+      "profession": {
+        "en": "Tax Compliance Expert",
+        "zh": "财税合规专家"
+      },
+      "avatar": "avatars/tax-legal-tax-review-expert.png",
+      "role": "member",
+      "name": {
+        "en": "法税同审与法务审查专家",
+        "zh": "法税同审与法务审查专家"
+      }
+    },
+    {
+      "id": "tax-specialized-characteristic-expert",
+      "profession": {
+        "en": "Firm Strategy Expert",
+        "zh": "事务所战略专家"
+      },
+      "avatar": "avatars/tax-specialized-characteristic-expert.png",
+      "role": "member",
+      "name": {
+        "en": "Specialized Firm Strategy Expert",
+        "zh": "特色事务所战略定位专家"
+      }
+    }
+  ],
+  "skills": [
+    "./skills/tax-expert-firm-ai-compliance"
+  ]
+}
